@@ -1,0 +1,25 @@
+.book-list-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.load-more-button
+button{
+  padding: 8px 12px;
+  margin-top: 8px; 
+  margin-bottom: 8px;
+  font-size: 12px;
+  background-color: #53C2C2;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more-button
+button:hover {
+  background-color: #28B8BB; 
+}

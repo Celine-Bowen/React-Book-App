@@ -1,0 +1,35 @@
+/* override material ui input styling to customize colors */
+.search-bar .MuiOutlinedInput-root {
+  border-radius: 5px;
+}
+
+.search-bar .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #FAAD00;
+}
+
+.search-bar .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FAAD00;
+  box-shadow: none;
+}
+
+.search-bar .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #FAAD00;
+}
+
+.search-bar .MuiOutlinedInput-input {
+  background-color: #FFFFFF;
+  color: #335C6E;
+  border-radius: 5px;
+}
+
+.search-bar .MuiOutlinedInput-input:focus {
+  color: #335C6E;
+}
+
+.search-bar .MuiInputLabel-root {
+  color: #335C6E;
+}
+
+.search-bar .MuiInputLabel-root.Mui-focused {
+  color: #335C6E;
+}

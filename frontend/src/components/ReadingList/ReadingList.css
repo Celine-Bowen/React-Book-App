@@ -1,0 +1,53 @@
+.reading-list-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+}
+
+.reading-list-container
+.card {
+  width: 250px;
+  border: 1px solid #FABD33;
+  border-radius: 5px;
+  padding: 4px;
+  margin-right: 20px; 
+  margin-bottom: 20px; 
+}
+
+.reading-list-container
+.book-cover {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.reading-list-container
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #335C6E;
+}
+
+.reading-list-container
+.author {
+  font-size: 13px;
+  color: #335C6E;
+  margin-bottom: 5px;
+}
+
+.reading-list-container
+.button {
+  margin-top: 8px;
+  font-size: 12px;
+  background-color: #53C2C2;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.reading-list-container
+.button:hover {
+  background-color: #28B8BB;
+}
