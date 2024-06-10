@@ -1,6 +1,6 @@
 ## Getting Started.
 
-Clone the project at
+Clone the project at `https://github.com/Celine-Bowen/React-Book-App.git`
 
 and cd into the frontend folder
 
